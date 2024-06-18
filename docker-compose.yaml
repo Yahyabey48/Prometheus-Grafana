@@ -26,8 +26,7 @@ services:
       - 9100
     networks:
       - monitoring
-
-  
+      
   prometheus:
     image: prom/prometheus
     volumes:
