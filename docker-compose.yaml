@@ -6,6 +6,7 @@ networks:
 
 volumes:
   prometheus_data: {}
+  grafana_data: {}  # Ajoutez cette ligne
 
 services:
   node-exporter:
